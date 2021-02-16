@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Type Animetion</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="typed.js"></script>
 </head>
 <body>
+    <!-- 1st one  -->
     <div class="parent">
         <div class="child">
             <h1>Hello! My Dear Gorgeous <span id="anime"></span></h1>
         </div>
     </div>
 
-    <script src="typed.js"></script>
+    <!-- 2nd one  -->
+    <div class="another">
+        <span id="abc"></span>
+    </div>
+    
+
+    <!-- 1st one  -->
     <script>
         var typed = new Typed('#anime', {
           strings:[
@@ -28,6 +35,20 @@
           typeSpeed:50,
           backSpeed:50,
           loop:true
+        });
+    </script>
+
+    <!-- 2nd one  -->
+    <script>
+        var type = new Typed('#abc',{
+            strings:
+            [
+                "Hi I am Amir Hossain Khalifa",
+                "A Software devloper",
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop:true
         });
     </script>
 </body>

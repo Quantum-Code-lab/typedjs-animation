@@ -1,13 +1,15 @@
 *{margin: 0;padding: 0; outline: 0;}
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: rgb(1, 152, 117);
+    overflow: hidden;
+    padding-bottom: 3rem;
 }
 .parent
 {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-color: rgb(10, 91, 73);
     display: flex;
     justify-content: center;
@@ -16,16 +18,42 @@ body{
 .child
 {
     width: 50vw;
-    height: 50vh;
+    height: 30vh;
     background-color: #049372;
 }
 .child h1
 {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50% );
     font-size: 2rem;
-    color: rgb(255, 214, 116);
+    color: rgb(164, 201, 219);
 }
-.child h1 span{ color: black;}
+.child h1 span{ color: rgb(255, 251, 184);}
+
+.another 
+{
+	width: 46vw;
+	height: 13vh;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 3rem;
+	padding-top: 18px;
+	padding-left: 68px;
+	background: #277160;
+	margin-top: 27px;
+}
+span{color: rgb(255, 255, 255);}
+#abc
+{
+    color: #A4C9DB;
+}
+/* #typed::after
+{
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite; ;
+} */
